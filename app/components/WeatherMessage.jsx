@@ -1,9 +1,8 @@
 var React = require('react');
 
-var WeatherMessage = (props) => {
-  var {temp, location} = props;
+var WeatherMessage = ({temp, location}) => {
   return (
-    <p>The temperature in {location} is: {temp}.</p>
+    <p>The temperature in {location} is: {temp}</p>
   );
 }
 
