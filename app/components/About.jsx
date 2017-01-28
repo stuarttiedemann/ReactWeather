@@ -10,13 +10,16 @@ var About = (props) => {
       <p>Here are some of the tools I used:</p>
       <ul>
         <li>
-          <a href="https://facebook.github.io/react" target="blank">React</a> - This is JavaScript framework used.
+          <a href="https://facebook.github.io/react" target="blank">React</a> - This is the JavaScript framework used.
         </li>
         <li>
           <a href="https://foundation.zurb.com" target="blank">Foundation</a> - This is the CSS library used.
         </li>
         <li>
           <a href="http://openweathermap.org" target="blank">Open Weather Map</a> - I used the Open Weather API to search for weather data by city name.
+        </li>
+        <li>
+          <a href="https://github.com/stuarttiedemann/ReactWeather" target="blank">Github Page</a> - My ReactWeather repository on github
         </li>
       </ul>
     </div>
