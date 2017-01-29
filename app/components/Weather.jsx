@@ -28,7 +28,6 @@ var Weather = React.createClass({
         isLoading: false
       });
     }, function (e) {
-      console.log(e.message);
       that.setState({
         isLoading: false,
         errorMessage: e.message
@@ -37,7 +36,6 @@ var Weather = React.createClass({
   },
   render: function() {
     var {temp, location, isLoading, errorMessage} = this.state;
-    console.log(this.state);
     function renderMessage() {
       if (isLoading) {
         return <h3 className="text-center">Fetching weather...</h3>;
